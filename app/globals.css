@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.nav-container {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('https://imagedelivery.net/aJE50BrMXOKdb2d2VHMUhg/4acba371-c0b4-42f2-0b3d-72b0fb5ac000/public');
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+.text-color {
+  color: rgb(255, 255, 255);
+}
+
+.popcorn-background {
+  background: radial-gradient(51.39% 511.66% at 47.68% -217.91%,
+      #ff9900 0%,
+      #e50914 17.27%,
+      #0e1b4f 79.44%,
+      #071034 99%)
+}
