@@ -12,6 +12,10 @@ body {
   background: #000;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .nav-container {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('https://imagedelivery.net/aJE50BrMXOKdb2d2VHMUhg/4acba371-c0b4-42f2-0b3d-72b0fb5ac000/public');
   background-size: cover;
